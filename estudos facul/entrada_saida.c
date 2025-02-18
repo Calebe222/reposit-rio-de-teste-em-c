@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main () {
+    int main () {
     int idade = 25;
     float altura = 1.80;
     char opcao = 'C';
@@ -24,7 +24,7 @@ int main () {
     printf("A altura é: %.2f", altura);
 
 
-    printf("Digite seu nome: \n");
-    scanf("%s", nome);
-    printf("Seu nome é: %s\n", nome);
+    printf("Digite a opçao: \n");
+    scanf(" %c", &opcao);
+    printf("Seu nome é: %c", nome);
 }
