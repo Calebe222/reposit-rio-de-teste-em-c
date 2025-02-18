@@ -15,6 +15,16 @@ int main () {
 
     printf("Digite sua idade: \n");
     scanf("%d", &idade);
-    printf("Sua idade é: %d", idade);
+    printf("Sua idade é: %d\n", idade);
 
+
+
+    printf("Digite sua altura:\n");
+    scanf("%f", &altura);
+    printf("A altura é: %.2f", altura);
+
+
+    printf("Digite seu nome: \n");
+    scanf("%s", nome);
+    printf("Seu nome é: %s\n", nome);
 }
